@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      
+      /* Center the form on the page */
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* This makes the form take up the entire viewport height */
+      }
+      
+      /* Style the form container */
+      form {
+        background-color: #ffcccc; /* Change to a shade of pink, you can use any other pink shade you prefer */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 400px; /* Adjust the maximum width of the box */
+        width: 100%; /* Ensure the box takes the available width */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+        position: relative; /* Add this to allow for relative positioning of the submit button */
+      }
+      
+      /* Style form labels */
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      /* Style form inputs */
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      /* Style the submit button */
+      button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position: relative; /* Position the button within the form */
+        right: 0; /* Reset the right position */
+        bottom: 0; /* Reset the bottom position */
+      }
+      
+      /* Center the button horizontally within the form */
+      button[type="submit"] {
+        margin: 0 auto;
+        display: block;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      
